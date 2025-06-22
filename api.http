@@ -1,0 +1,14 @@
+### Recuperar informacion del pokemon "ditto"
+GET http://localhost:3000/pokemon/ditto
+
+### Recuperar informacion del pokemon "ditto"
+POST http://localhost:3000/pokemon
+Content-Type: application/json
+
+{
+  "name": "ditto",
+  "type": "normal",
+  "abilities": ["limber", "imposter"],
+  "height": 0.3,
+  "weight": 4.0
+}
